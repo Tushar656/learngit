@@ -1,4 +1,5 @@
 This is first commit.
+This is update after first commit.
 
 
 
@@ -14,3 +15,5 @@ This is first commit.
 // Check for git repository                 ---->  git status
 // To make git repository                   ---->  git init
 // Add all updated files to staging area    ---->  git add --a
+// Add git commit (snapshot of files)       ---->  git commit -m "WRITE COMMIT"
+// Find all commits                         ---->  git log
