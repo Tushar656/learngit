@@ -1,0 +1,16 @@
+This is first commit.
+
+
+
+
+
+
+
+
+
+
+
+
+// Check for git repository                 ---->  git status
+// To make git repository                   ---->  git init
+// Add all updated files to staging area    ---->  git add --a
