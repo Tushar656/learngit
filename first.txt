@@ -12,8 +12,29 @@ This is update after first commit.
 
 
 
-// Check for git repository                 ---->  git status
-// To make git repository                   ---->  git init
-// Add all updated files to staging area    ---->  git add --a
-// Add git commit (snapshot of files)       ---->  git commit -m "WRITE COMMIT"
-// Find all commits                         ---->  git log
+// Check for git repository                           ---->  git status
+// To make git repository                             ---->  git init
+// Add all updated files to staging area              ---->  git add --a
+// Add some of the updated files to staging area      ---->  git add FILENAME
+// Add git commit (snapshot of files)                 ---->  git commit -m "WRITE COMMIT"
+// Find all commits                                   ---->  git log
+// Download another repository to our computer        ---->  git clone URLLINK
+// Ignore a file from git                             ---->  put this file in .gitignore file
+
+// Remove git repository                              ---->  rm -rf .git
+
+
+
+
+
+
+
+
+
+
+
+// Linux Commands
+
+// get present working directory      ---->  pwd
+// get list all items of pwd          ---->  ls
+// Make an empty file                 ---->  touch FILENAME
