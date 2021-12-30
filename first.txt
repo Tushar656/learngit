@@ -19,7 +19,17 @@ This is update after first commit.
 // Add git commit (snapshot of files)                 ---->  git commit -m "WRITE COMMIT"
 // Find all commits                                   ---->  git log
 // Download another repository to our computer        ---->  git clone URLLINK
+
 // Ignore a file from git                             ---->  put this file in .gitignore file
+// Ignore all .dox files                              ---->  write *.dox in gitignore
+// Ignore all files of a folder                       ---->  write FOLDERNAME/
+
+// compair pwd and staging area                       ---->  git diff
+// compeir pwd and last commit                        ---->  git diff --staged
+
+// Deleta a file                                      ---->  git rm FILENAME
+// Rename a file                                      ---->  git mv FILENAME RENAME
+// Untrac a file                                      ---->  git rm --cached FILENAME - then put it in gitignore		
 
 // Remove git repository                              ---->  rm -rf .git
 
