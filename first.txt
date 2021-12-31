@@ -43,6 +43,12 @@ This is update after first commit.
 // Remove git repository                              ---->  rm -rf .git
 
 
+// HOSTING ON GITHUB
+Run-  git remote add origin https://github.com/Tushar656/learngit.git  on gitbash
+To generaye ssh key -   ssh-keygen -t ed25519 -C "your_email@example.com"  (search - Generate ssh key github)
+To push the code    -   git push origin master
+
+
 
 
 
