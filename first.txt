@@ -17,8 +17,14 @@ This is update after first commit.
 // Add all updated files to staging area              ---->  git add --a
 // Add some of the updated files to staging area      ---->  git add FILENAME
 // Add git commit (snapshot of files)                 ---->  git commit -m "WRITE COMMIT"
-// Find all commits                                   ---->  git log
 // Download another repository to our computer        ---->  git clone URLLINK
+
+// Find all commits                                   ---->  git log
+// Find all commits with changes                      ---->  git log -p
+// Find limited comits                                ---->  git log -p -3
+// Find all commits with small description            ---->  git log --stat
+// Find all commits per line (pretty way)             ---->  git log --pretty=oneline
+// Find last 2 days commits                           ---->  git log --since=2.days
 
 // Ignore a file from git                             ---->  put this file in .gitignore file
 // Ignore all .dox files                              ---->  write *.dox in gitignore
@@ -29,7 +35,10 @@ This is update after first commit.
 
 // Deleta a file                                      ---->  git rm FILENAME
 // Rename a file                                      ---->  git mv FILENAME RENAME
-// Untrac a file                                      ---->  git rm --cached FILENAME - then put it in gitignore		
+// Untrac a file                                      ---->  git rm --cached FILENAME - then put it in gitignore
+
+// Unmodify a file (Retrive previous contant of file) ---->  git chechout -- FILENAME
+// remove all new changes and go in previous commiy   ---->  git checkout -f	
 
 // Remove git repository                              ---->  rm -rf .git
 
